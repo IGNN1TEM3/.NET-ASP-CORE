@@ -1,0 +1,79 @@
+@{
+    ViewBag.Title = "Index";
+}
+@section Main{
+    <main>
+
+        <div class="container mt-5">
+            <h1 class="text-center">Лабораторная работа 1</h1>
+            <h2 class="mt-4">Список</h2>
+            <ol type="A" class="mt-4">
+                <li>Первый элемент списка</li>
+                <li>Второй элемент списка</li>
+                <li>Третий элемент списка</li>
+            </ol>
+        </div>
+
+        <hr class="border-secondary my-4">
+        <div class="container mt-5">
+            <h2>Форма</h2>
+            <form method="post">
+                <div class="mb-3">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="checkbox-1" name="check-1">
+                        <label class="form-check-label" for="checkbox-1">
+                            Чек-бокс 1
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="checkbox-2" name="check-1">
+                        <label class="form-check-label" for="checkbox-2">
+                            Чек-бокс 2
+                        </label>
+                    </div>
+                </div>
+    
+    
+                <div class="mb-3">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="r-choice" id="r1" value="r1" checked>
+                        <label class="form-check-label" for="r1">
+                            Радио-1
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="r-choice" id="r2" value="r2">
+                        <label class="form-check-label" for="r2">
+                            Радио-2
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="r-choice" id="r3" value="r3">
+                        <label class="form-check-label" for="r3">
+                            Радио-3
+                        </label>
+                    </div>
+                </div>
+    
+                <!-- логин -->
+                <div class="mb-3">
+                    <label for="username" class="form-label">Логин</label>
+                    <input type="text" class="form-control" id="username" placeholder="Введите логин"
+                     required name="login">
+                </div>
+                <!--пасс-->
+                <div class="mb-3">
+                    <label for="password" class="form-label">Пароль</label>
+                    <input type="password" class="form-control" id="password" placeholder="Введите пароль"
+                     required name = "pass">
+                </div>
+
+                <button type="submit" class="btn btn-primary">
+                    Отправить
+                </button>
+            </form>
+        </div>
+
+    </main>
+}
+
