@@ -7,11 +7,14 @@
         <div class="container mt-5">
             <h1 class="text-center">Лабораторная работа 1</h1>
             <h2 class="mt-4">Список</h2>
-            <ol type="A" class="mt-4">
-                <li>Первый элемент списка</li>
-                <li>Второй элемент списка</li>
-                <li>Третий элемент списка</li>
-            </ol>
+
+                @if (Model.Items!=null && Model.Items.Any()){
+                    <ol type="A" class="mt-4">
+                        @foreach (var item in Model.Items){
+                            <li>@item</li>
+                        }
+                    </ol>
+                }
         </div>
 
         <hr class="border-secondary my-4">

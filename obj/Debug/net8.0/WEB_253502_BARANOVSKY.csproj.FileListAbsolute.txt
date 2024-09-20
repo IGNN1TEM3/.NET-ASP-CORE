@@ -29,3 +29,4 @@ D:\VS-works\C#\WEB_253502_BARANOVSKY\obj\Debug\net8.0\refint\WEB_253502_BARANOVS
 D:\VS-works\C#\WEB_253502_BARANOVSKY\obj\Debug\net8.0\WEB_253502_BARANOVSKY.pdb
 D:\VS-works\C#\WEB_253502_BARANOVSKY\obj\Debug\net8.0\WEB_253502_BARANOVSKY.genruntimeconfig.cache
 D:\VS-works\C#\WEB_253502_BARANOVSKY\obj\Debug\net8.0\ref\WEB_253502_BARANOVSKY.dll
+D:\VS-works\C#\WEB_253502_BARANOVSKY\obj\Debug\net8.0\WEB_253502_BARANOVSKY.sourcelink.json
