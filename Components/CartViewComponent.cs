@@ -6,7 +6,6 @@ namespace WEB_253502_BARANOVSKY.Components
 {
     public IViewComponentResult Invoke()
     {
-        // Логика для получения информации о корзине
         var cartTotal = "00,0 руб";
         var cartItemsCount = 0;
 
