@@ -1,3 +1,8 @@
+@{
+        var num = ViewData["CartItemsCount"] as int? ?? 0;
+        var total = ViewData["CartTotal"] as string ?? "0.00 руб";
+
+}
 <a class="navbar-text ms-auto" asp-controller="Cart" asp-action="Index">
-        00,0 руб <i class="fa-solid fa-cart-shopping"></i> (0)
+        @total<i class="fa-solid fa-cart-shopping"></i> (@num)
 </a>
