@@ -1,7 +1,7 @@
-﻿namespace WEB_253502_BARANOVSKY.DOMAIN.Entities;
+namespace WEB_253502_BARANOVSKY.DOMAIN.Entities;
 
 
-public class Category
+public class TourCategory
 {
     public int Id {get; set;}
     public string? Name {get; set;}

@@ -7,3 +7,10 @@ header, footer {
 .foot_col {
   color:rgba(251, 251, 251, 0.967)
 }
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+.card-body {
+  text-align: center;
+}

@@ -1,6 +1,6 @@
-﻿namespace WEB_253502_BARANOVSKY.DOMAIN.Entities;
+namespace WEB_253502_BARANOVSKY.DOMAIN.Entities;
 
-public class Product
+public class Tour
 {
     public int Id {get; set;}
     public required string Name {get; set;}
