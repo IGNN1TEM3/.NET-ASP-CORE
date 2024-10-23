@@ -1,0 +1,6 @@
+@WEB_253502_BARANOVSKY.API_HostAddress = http://localhost:5022
+
+GET {{WEB_253502_BARANOVSKY.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
