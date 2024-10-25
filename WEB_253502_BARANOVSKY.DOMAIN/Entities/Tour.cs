@@ -9,4 +9,6 @@ public class Tour
     public string? ImagePath {get; set;}
     public string? MimeString {get; set;}
     public int? CategoryId {get; set;}
+
+    public TourCategory? Category { get; set; }
 }
